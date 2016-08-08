@@ -150,9 +150,13 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="d3dx12.h" />
+    <ClInclude Include="DirectXApp.h" />
+    <ClInclude Include="WindowsApp.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="DirectXApp.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="WindowsApp.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

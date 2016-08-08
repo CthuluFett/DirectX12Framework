@@ -1,22 +1,19 @@
 
-	//*********************************************************
-	//
-	// Copyright (c) Microsoft. All rights reserved.
-	// This code is licensed under the MIT License (MIT).
-	// THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF
-	// ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY
-	// IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR
-	// PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.
-	//
-	//*********************************************************
+//*********************************************************
+//
+// Copyright (c) Microsoft. All rights reserved.
+// This code is licensed under the MIT License (MIT).
+// THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF
+// ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY
+// IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR
+// PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.
+//
+//*********************************************************
 
 #ifndef __D3DX12_H__
 #define __D3DX12_H__
 
-#include <d3d12.h>
-#include <dxgi1_4.h>
-#include <D3Dcompiler.h>
-#include <DirectXMath.h>
+#include "d3d12.h"
 
 #if defined( __cplusplus )
 
@@ -1557,5 +1554,3 @@ inline ID3D12CommandList * const * CommandListCast(ID3D12GraphicsCommandList * c
 #endif // defined( __cplusplus )
 
 #endif //__D3DX12_H__
-
-
